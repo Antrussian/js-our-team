@@ -49,7 +49,16 @@ const membriTeam = [
     ruolo : "Graphic Designer",
     foto : "barbara-ramos-graphic-designer.jpg" },
 
+    
 
-]
 
-console.log (membriTeam);
+];
+
+
+
+
+
+const infoStringa = membriTeam.map(member => `${member.nome}, ${member.ruolo}, ${member.foto}`);
+
+const teamContainer = document.getElementById('teamContainer');
+teamContainer.textContent = infoStringa;
