@@ -51,3 +51,5 @@ const membriTeam = [
 
 
 ]
+
+console.log (membriTeam);
